@@ -12,7 +12,7 @@ export default async function Page() {
       <h1>Sales</h1>
       <ul>
         {sales?.map((sale) => (
-          <li key={sale.id}>{sale.sales_date}, {sale.degC}</li>
+          <li key={sale.id}>{sale.sales_date}, {sale.degC}, {sale.ice_cream_sales}, {sale.coffee_sales}</li>
         ))}
       </ul>
     </div>
